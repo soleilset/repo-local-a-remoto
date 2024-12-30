@@ -1,1 +1,2 @@
-archivo 2 para prbar git
+no debi borrar esto
+modificacion sobre la primera rama
