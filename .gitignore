@@ -1,0 +1,19 @@
+# Aqui van los archivos que no queremos que se suban a nuestro repositorio
+# Por ejemplo, los archivos de configuración de nuestro entorno local
+# o los archivos de dependencias de nuestro proyecto
+
+# Ignorar un archivo específico (marque su ruta de ser necesario)
+ignorado.txt
+
+# Ignorar todos los archivos con una extensión específica
+*.txt
+
+# El asterisco (*) es un comodín que representa cualquier cadena de caracteres
+*esto siempre se repite.txt
+# Hace que se ignore cualquier archivo que termine en "esto siempre se repite.txt"
+
+# Ignorar todos los archivos en un directorio específico
+carpeta/
+
+# Si ignoro todos los .txt, pero quiero que se suba uno en particular (marque su ruta de ser necesario)
+!noignorado.txt
